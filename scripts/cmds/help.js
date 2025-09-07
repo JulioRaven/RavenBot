@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ Remplace par le nom de ton bot ]";
+const doNotDelete = "𝐈𝐓𝐀𝐂𝐇𝐈❤‍🔥𝐃𝐄𝐗𝐓𝐄𝐔𝐑";
 
 module.exports = {
         config: {
@@ -29,9 +29,9 @@ module.exports = {
 
         langs: {
                 en: {
-                        helpList: "╭─ Remplace par le nom de ton bot ─╮\n%1\n╰─ Total: %2 commandes ─╯\nUtilisez %3help <cmd> pour les détails de la commande",
+                        helpList: "╭─ 𝐈𝐓𝐀𝐂𝐇𝐈❤‍🔥𝐃𝐄𝐗𝐓𝐄𝐔𝐑 ─╮\n%1\n╰─ Total: %2 commandes ─╯\nUtilisez %3help <cmd> pour les détails de la commande",
                         commandNotFound: "La commande \"%1\" n'existe pas",
-                        getInfoCommand: "╭─ INFOS COMMANDE ─╮"
+                        getInfoCommand: " 🌱 🩸☞INFOS COMMANDE☜🩸 🌱"
                                 + "\n│ Nom: %1"
                                 + "\n│ Description: %2"
                                 + "\n│ Alias: %3"
@@ -40,13 +40,13 @@ module.exports = {
                                 + "\n│ Rôle: %6"
                                 + "\n│ Cooldown: %7s"
                                 + "\n│ Auteur: %8"
-                                + "\n├─ UTILISATION ─┤"
+                                + "\n🌱 🩸☞ UTILISATION ☜🩸 🌱"
                                 + "\n│%9"
-                                + "\n├─ NOTES ─┤"
+                                + "\n🌱 🩸☞ NOTES ☜🩸 🌱"
                                 + "\n│ <XXXXX> peut être modifié"
                                 + "\n│ [a|b|c] est a ou b ou c"
-                                + "\n╰─────────────╯",
-                        onlyInfo: "╭─ INFOS ─╮"
+                                + "\n━━━━━━━━━━━━━━",
+                        onlyInfo: "🌱 🩸☞ INFOS ☜🩸 🌱"
                                 + "\n│ Nom: %1"
                                 + "\n│ Description: %2"
                                 + "\n│ Alias: %3"
@@ -55,17 +55,17 @@ module.exports = {
                                 + "\n│ Rôle: %6"
                                 + "\n│ Cooldown: %7s"
                                 + "\n│ Auteur: %8"
-                                + "\n╰─────────────╯",
-                        onlyUsage: "╭─ UTILISATION ─╮"
+                                + "\n━━━━━━━━━━━━━━",
+                        onlyUsage: "🌱 🩸☞ UTILISATION ☜🩸 🌱"
                                 + "\n│%1"
-                                + "\n╰─────────────╯",
-                        onlyAlias: "╭─ ALIAS ─╮"
+                                + "\n━━━━━━━━━━━━━━",
+                        onlyAlias: "🌱 🩸☞ ALIAS ☜🩸 🌱"
                                 + "\n│ Alias: %1"
                                 + "\n│ Alias du groupe: %2"
-                                + "\n╰─────────────╯",
-                        onlyRole: "╭─ RÔLE ─╮"
+                                + "\n━━━━━━━━━━━━━━",
+                        onlyRole: "🌱 🩸☞ RÔLE ☜🩸 🌱"
                                 + "\n│%1"
-                                + "\n╰─────────────╯",
+                                + "\n━━━━━━━━━━━━━━",
                         doNotHave: "Aucun",
                         roleText0: "0 (Tous les utilisateurs)",
                         roleText1: "1 (Administrateurs du groupe)",
